@@ -1,0 +1,63 @@
+<html>'
+    <head>
+        <title>
+
+        </title>
+    </head>
+    <body>
+        <div class="main">
+
+        </div>
+    </body>
+<style>
+    .main{
+        width: 100px;
+        background-color: rgb(89, 110, 110);
+        height: 100px;
+        animation-name: change ;
+        position: relative;
+        animation-duration: 4s;
+        /* animation-iteration-count: infinite; */
+     
+        /* add animation delay */
+        animation-delay: 2s; 
+    }
+@keyframes change{
+    0%{
+        top:0;
+        left:0;
+}
+25%{
+    top:0;
+    left:400px;
+    border-radius: 10px;
+    
+    background-color: green;
+
+}
+
+
+50%{
+    top: 400px;
+    left: 400px;
+    border-radius: 20px;
+    
+
+}
+75%{
+    top:400px;
+    left: 0;
+    border-radius: 50px;
+
+
+}
+
+100%{
+    top: 0px;
+    left:0; 
+    
+}
+}
+
+</style>
+</html>

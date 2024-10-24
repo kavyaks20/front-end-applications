@@ -1,0 +1,45 @@
+
+.navbar{
+
+    width: 100%;
+    height: 70px;
+    background-color: #dec7c7;
+    display: flex;
+    align-items: center;
+}
+.navbar ul{
+    list-style: none;   /*  remove bullets */
+    display: flex;
+    gap:20px
+}
+.icon-btn{
+    display: flex;
+    position: absolute;
+    left: 90%;
+    top:5%
+}
+.more{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: #cfef5a; */
+    width: 100%;
+    display: none;
+    height: 300px;
+}
+.xd{
+    border: 1px solid black;
+    background-color: #d2dec7;
+    width: 100%;
+    height: 40px;  
+    
+}
+@media (max-width:600px){
+    .list{
+        display: none;
+}
+}
+@media (max-width: 400px){
+    .icon-btn{
+        display: block;
+    }}
